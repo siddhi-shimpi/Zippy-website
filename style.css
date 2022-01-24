@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Noto+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Mukta:wght@200&family=Noto+Sans&family=Raleway:wght@200&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Mukta:wght@200&family=Noto+Sans&family=Raleway:wght@200&family=Roboto:wght@500&family=Source+Sans+3:wght@600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.container-nav{
+    height: 700px;
+    width: 100%;
+    background: url('images/nav-back2.jpg') no-repeat center center/cover;
+}
+.navbar{
+    display: flex;
+   
+}
+.navbar h1{
+    margin: 15px 200px;
+    padding: 10px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar li{
+    margin: 20px 10px;
+    padding: 10px;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar li a:hover{
+   cursor: pointer;
+    color: yellow;
+}
+
+.content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    color: white;
+    
+}
+.content-1 h1{
+    padding: 15px;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+}
+.content-1 p{
+    font-weight: 400;
+    opacity: 0.7;
+    font-family: 'Cabin', sans-serif;
+}
+.btn1 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    width: 110px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+.btn1 button:hover{
+    background-color: rgb(230, 230, 18);
+    color: black;
+}
+
+.welcome{
+    height: 700px;
+    width: 100%;
+}
+.content-1-welcome{
+    height: 300px;
+    width: 100%;
+}
+.head1 h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+.content-1-welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-1-welcome img{
+    margin: 0px 30px;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.content-1-welcome p{
+    margin: 0px 30px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.cards1{
+    margin-top: 50px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-main{
+    height: 250px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: 0px 20px;
+}
+.card-main h2{
+    margin: 8px 0px;
+    font-weight: 600;
+}
+.card-main p{
+    padding: 10px;
+    width: 160px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif
+}
+.card-main img{
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.btn-card button{
+    margin: 10px 5px;
+    width: 80px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+.btn-card button:hover{
+    background-color: rgb(230, 230, 18);
+    color: black;
+}
+
+/* projects */
+.projects{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-head{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-head h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+.cards{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.cards img{
+    height: 380px;
+    width: 190px;
+    object-fit: cover;
+}
+.cards h3{
+    margin-top: 5px;
+}
+.cards p{
+   padding: 4px 10px;
+   text-align: center;
+   font-family: 'Cabin', sans-serif
+}
+.btn-project button{
+    margin: 10px 5px;
+    width: 80px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+.btn-project button:hover{
+    background-color: rgb(230, 230, 18);
+    color: black;
+}
+
+
+/* price tables */
+.price-tables{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 237, 238);
+    color: black;
+}
+.price-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 50px;
+    height: 250px;
+    width: 180px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+.prices h5{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+.prices p{
+    font-family: 'Cabin', sans-serif
+}
+
+#carouselExampleIndicators{
+    margin-top: 60px;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: purple;
+}
+#carouselExampleIndicators h2{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.members{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.members1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px 0px;
+}
+.members1 h3{
+    margin: 5px 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.members h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.members1 p{
+    margin: 5px 5px;
+    text-align: center;
+}
+.member{
+    margin: 20px 30px;
+}
+.members2{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.members2 h3{
+    margin: 5px 0px;
+    text-align: center;
+}
+.members2 p{
+    margin: 5px 5px;
+    text-align: center;
+}
+.member img{
+    height: 150px;
+    width: 140px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+/* zippy life */
+.zippy-life{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 8%;
+    background-color: rgb(235, 227, 227);
+}
+.zippy-life h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.zippy-life img{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+
+/* form short - sign up */
+.sign-up{
+    height: 350px;
+    width: 100vw;
+    background: url('images/bridge.jpg')center center/cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+    margin-top: 40px;
+}
+.form-short input{
+    width: 400px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    align-items: center;
+    font-weight: 500;
+}
+.form-short button{
+    margin: 10px 5px;
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(163, 26, 163);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+.form-short button:hover{
+    background-color: rgb(230, 230, 18);
+    color: black;
+}
+.form-short h1{
+    font-family: 'Lato', sans-serif;
+    color: rgb(230, 230, 33);
+    font-weight: 600;
+}
+
+/* contact form */
+.contact{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 40px;
+    background-color: rgb(209, 202, 202);
+}
+.map img{
+    height: 643px;
+    width: 50vw;
+    object-fit: cover;
+}
+.contact-us{
+    margin: 0px 90px;
+}
+.contact-us form{
+    width: 30vw;
+}
+
+/* footer */
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
